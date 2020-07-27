@@ -1,0 +1,37 @@
+.FormB{
+    margin-left: 50px;
+}
+
+#name,#team,#type{
+    font-size: 28px;
+    
+}
+label{
+    font-size: 30px;
+    
+}
+input[type=text]{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .BtnCreate{
+    color:white;
+    background-color: rgba(47, 105, 170, 0.863);
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 4px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+  }
+
+  button:hover {
+    background-color: #78f576;
+  }

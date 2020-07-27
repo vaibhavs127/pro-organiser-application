@@ -1,0 +1,74 @@
+.card-container{
+    width: 230px;
+    height: 100px;
+}
+.col {
+    float: left;
+    width: 102%;
+    height: auto;
+    padding: 0 10px;
+  }
+  
+  .row {
+  margin: 0 -5px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: auto;
+    cursor:pointer;
+    border-radius: 7px;
+  }
+
+  .title{
+    float: left;
+    background-color: wheat;
+  }
+
+  .btitle{
+    font-weight: 400;
+    margin-left: 20px;
+    color: rgb(149, 207, 226);
+  }
+
+  .poupModal{
+    margin-left: 35px;
+  }
+  .popupClose{
+    margin-left: 185px;
+  }
+
+  .btnedit{
+    display: inline-block;
+    position: absolute;
+    left: 64%;
+    top: 7%;
+    background-color: rgb(78, 78, 230);
+    
+  
+  }
+
+  .btnarchive{
+    position: absolute;
+    left: 76%;
+    top: 7%;
+    background-color: rgb(236, 70, 70);
+  }  
+
+  .btnedit,.btnarchive{
+      font-size: 16px;
+      color: white;
+      padding: 5px;
+      padding-left: 8px;
+      padding-right: 8px;
+      border: none;
+      cursor: pointer;
+  }

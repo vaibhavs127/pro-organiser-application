@@ -1,0 +1,90 @@
+.sform{
+    font-size: 25px;
+    
+}
+
+.adds{
+    font-size: 30px;
+}
+
+.btnclose{
+    margin-right: 10px;
+    font-size: 25px;
+    border-radius: 4px;
+    background-color: white;
+    padding: 3px 8px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.AddButton{
+    margin-right: 10px;
+    font-size: 25px;
+    border-radius: 4px;
+    background-color: white;
+    padding: 3px 8px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+#noshares{
+    justify-items: right;
+}
+
+label, input {
+    /* In order to define widths */
+    display: inline-block;
+}
+
+label {
+    width: 30%;
+   
+    text-align: right;
+}
+
+label + input {
+    width: 30%;
+    
+    margin: 0 30% 0 4%;
+}
+input + input {
+    float: right;
+}
+
+label.company-name{
+    margin-right: 495px;
+}
+
+b.nameOf{
+    position: absolute;
+    left: 50%;
+}
+#serror{
+    color: red;
+}
+
+.btnclose{
+    position: absolute;
+    top: -15%;
+    left: 112%;
+}
+
+.btnOpen{
+   background-color: rgb(31, 139, 182);
+   position: absolute;
+   left: 64%;
+   color: white;
+   border: none;
+   border-radius: 2px;
+   padding: 10px;
+}
+
+.adds{
+    margin-left: -765px;
+    color: rgb(31, 139, 182);
+    font-weight: lighter;
+}
+
+.mform{
+    border-radius: 4px;
+}
